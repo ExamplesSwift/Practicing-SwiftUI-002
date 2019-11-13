@@ -32,8 +32,8 @@ struct ContentView: View {
   var body: some View {
     Text("Hello World")
       .foregroundColor(Color.red)
-      .background(Color.gray)
       .padding()
+      .background(Color.gray)
       .border(Color.black, width: 3)
   }
 }
