@@ -31,6 +31,7 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     Text("Welcome to the Ray Wenderlich course on SwiftUI. In this course we are going to have an EPIC time working with all that SwiftUI has to offer. Remember, the answers are in the documentation :]")
+    .lineLimit(1)
       .foregroundColor(Color.red)
       .padding()
       .background(Color.gray)
